@@ -29,6 +29,9 @@
             "projectReferences": {
               "/Users/jowcook/Desktop/Fall2025/ITDEV-162/josiah-cook/Application/Application.csproj": {
                 "projectPath": "/Users/jowcook/Desktop/Fall2025/ITDEV-162/josiah-cook/Application/Application.csproj"
+              },
+              "/Users/jowcook/Desktop/Fall2025/ITDEV-162/josiah-cook/Persistence/Persistence.csproj": {
+                "projectPath": "/Users/jowcook/Desktop/Fall2025/ITDEV-162/josiah-cook/Persistence/Persistence.csproj"
               }
             }
           }
@@ -55,11 +58,15 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.9, )"
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[9.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[9.0.9, )"
+              "version": "[9.0.10, )"
             }
           },
           "imports": [
@@ -259,7 +266,7 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.9, )"
+              "version": "[9.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -269,7 +276,7 @@
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[9.0.9, )"
+              "version": "[9.0.10, )"
             }
           },
           "imports": [
