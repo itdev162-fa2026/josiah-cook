@@ -53,7 +53,7 @@ public class OrdersController : ControllerBase
             order.StripePaymentIntentId = stripeSession.PaymentIntentId;
             await _context.SaveChangesAsync();
         }
-        else if (stripeSession.PaymentStatus == "umpaid" && order.Status == 
+        else if (stripeSession.PaymentStatus == "unpaid" && order.Status == 
         OrderStatus.Pending)
         {
             // Payment was not completed

@@ -498,3 +498,21 @@ appsettings.Development.json
 *.db
 *.db-shm
 *.db-wal
+
+
+# Dependencies
+node_modules
+
+# Production build
+dist
+
+# Local env files
+.env.local
+.env*.local
+
+# Editor
+.vscode
+.idea
+
+# OS
+.DS_Store
